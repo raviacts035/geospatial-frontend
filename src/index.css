@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import "leaflet/dist/leaflet.css";
+@import "leaflet-draw/dist/leaflet.draw.css"; */
+
+/* Ensure map container has a height */
+.map-container {
+  width: 100%;
+  height: 100vh;
+}
+
+/* Add this to index.css or App.css */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.leaflet-container {
+  height: 600px; /* You can adjust the height as needed */
+  width: 100%;
+}
